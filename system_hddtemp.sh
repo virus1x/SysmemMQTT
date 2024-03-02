@@ -1,8 +1,6 @@
 #!/bin/bash
 #Укажите адрес вашего брокера и учетные данные
 
-date >> /home/virus/mqtt/cron_log.txt
-
 ip=****
 usr="****"
 pass="****"
