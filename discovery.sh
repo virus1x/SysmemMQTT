@@ -88,6 +88,7 @@ device="\"device\": {\"ids\": [\"101\"],\"name\":\"wallaby\",\"mf\":\"Virus1х\"
 command="$device_class$name$object_id$uniq_id$unit_of_meas$expire_after$state_topic$val_tpl$device"
 mosquitto_pub -h $ip -p 1883 -t "homeassistant/sensor/wallaby_TSRAM/config" -m "$command" -u $usr -P $pass
 
+
 device_class="{\"device_class\": \"power_factor\","
 name="\"name\": \"CPUload\","
 object_id="\"object_id\":\"CPUload\","
